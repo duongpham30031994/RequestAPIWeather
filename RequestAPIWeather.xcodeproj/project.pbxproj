@@ -12,6 +12,7 @@
 		18A58CA220844C0900E0666F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A58CA020844C0900E0666F /* Main.storyboard */; };
 		18A58CA420844C0900E0666F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A58CA320844C0900E0666F /* Assets.xcassets */; };
 		18A58CA720844C0900E0666F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A58CA520844C0900E0666F /* LaunchScreen.storyboard */; };
+		18A58CAF20844D4300E0666F /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A58CAE20844D4300E0666F /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		18A58CA320844C0900E0666F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A58CA620844C0900E0666F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A58CA820844C0900E0666F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A58CAE20844D4300E0666F /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				18A58C9C20844C0900E0666F /* AppDelegate.swift */,
 				18A58C9E20844C0900E0666F /* ViewController.swift */,
+				18A58CAE20844D4300E0666F /* Weather.swift */,
 				18A58CA020844C0900E0666F /* Main.storyboard */,
 				18A58CA320844C0900E0666F /* Assets.xcassets */,
 				18A58CA520844C0900E0666F /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A58C9F20844C0900E0666F /* ViewController.swift in Sources */,
+				18A58CAF20844D4300E0666F /* Weather.swift in Sources */,
 				18A58C9D20844C0900E0666F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
